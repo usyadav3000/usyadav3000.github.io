@@ -1,0 +1,247 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Slabo 27px', serif;
+    font-size: 16px;
+    
+}
+.umas{
+    background-color: #ffaaaa;
+}
+.uma2{
+    background-color: #0b8457;
+}
+.small-text{
+    font-size: 14px;
+}
+.down-icon a{
+ font-size: 350%;
+ color: #23eae6;
+ text-decoration: none;
+}
+.down-button{
+ position: absolute;
+ bottom: 6px;
+ width: 100%;
+ text-align: center;
+
+}
+.navbar{
+    margin-bottom: 0px;
+}
+
+.fill-screen{
+ padding-top: 50px;
+ background-size: cover;
+ background-position: center;
+}
+.title-row{
+    position: relative;
+    min-height: 300px;
+}
+.title{
+    position: absolute;
+    width:400px;
+    height:400px;
+    padding: 20px;
+    top: 45%;
+    left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.first-name{
+    margin-top: 365px;
+    color:#fff;
+    font-size: 200%;
+}
+.last-name{
+    color:#000;
+    font-weight: 900;
+    background-color: aqua;
+    padding: 0px 10px;
+}
+.sec-header {
+    padding-top: 50px;
+    text-align: center;
+}
+.table-custom{
+font-size: 100%;
+}
+.table-custom dt{
+ text-align: left;
+ font-weight: bold;
+}
+.table-custom dd{
+    text-align: left;
+
+}
+.social a{
+   display: inline-block;
+   width: 35px;
+   height: 35px;
+   margin: 10px;
+   padding:5px;
+   color: #fff;
+   background-color: blue;
+   text-align: center;
+   border: 1px solid #000;
+
+}
+.fixed-attechment{
+    background-attachment: fixed;
+}
+
+.activity-elements {
+    text-align: center;
+}
+.card-container{
+    perspective: 700px;
+    -webkit-perspective: 700px;
+}
+.card h4{
+    color: #b7fbff;
+}
+h5{
+    color:#fff;
+}
+.card{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 250px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    transition: all 0.8s ease;
+    transform-style: preserve-3d;
+
+}
+.front,.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; 
+}
+.front{
+    background: #8f1537;
+}
+.back{
+    background: #226597;
+    transform: rotateY(180deg);
+}
+.card:hover{
+    transform: rotateY(180deg);  
+}
+article#skill-progress{
+ padding: 3px 10px 0;
+}
+div.progress{
+    font-weight: bold;
+    color:#fff;
+    background-color: #fff5eb;
+    border: none;
+    box-shadow: none;
+    height: 1.5em;
+}
+div.progress-bar > span{
+   float: left;
+   position: relative;
+   top: 4px;
+   left: 2%;
+}
+.progress-bar{
+    font-size: 100%;
+}
+.skill-level{
+    font-size: 80%;
+    color:#23eae6;
+    padding-right: 2%;
+}
+.text-banner{
+    text-align: center;
+    margin: 30px,20px;
+}
+.box{
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24),0 0 4px 0 rgba(0,0,0,0.14);
+    box-sizing: border-box;
+    max-width: 320px;
+    padding: 30px;
+    margin: 30px;
+    background-color: #f36a7b;
+}
+.box-slim{
+    padding: 40px;
+    max-width: 350px;
+}
+.my-work{
+    margin-bottom: 50px;
+}
+.portfollio-section{
+    margin-bottom: 50px;
+}
+/*animated underline on hover effect and i used this effect navbar as well as about ,skill section*/
+h3 > span , .nav a {
+ position: relative;
+ color:#000;
+ text-decoration: none;
+}
+
+h3 > span:hover , .nav a:hover{
+ color: #0028ff;
+}
+h3 > span:before , .nav a:before {
+ content: "";
+ position: absolute;
+ width: 100%;
+ height: 2px;
+ bottom: 0;
+ left: 0;
+ background-color: #0028ff;
+ visibility: hidden;
+ -webkit-transform: all 0.3s ease-in-out 0s;
+ transform: all 0.3s ease-in-out 0s;
+}
+h3 > span:hover:before , .nav a:hover:before {
+ visibility: visible;
+ -webkit-transform: scaleX(1);
+ transform: scaleX(1);
+}
+@media(max-width:700px){
+.fixed-attechment{
+        background-attachment: scroll;
+    }
+    .sec-header > h3{
+        border-top: 1px solid #f6ef98;
+        padding-top: 15px;
+    }
+}
+.ya{
+    display: inline-block;
+}
+.ma-top{
+    background-color: #000;
+    margin-top: 40px;
+}
+.navbar-default{
+    background-color: #a6e3e9;
+}
+.haa{
+    color:#fff;
+}
+.skill-text-color{
+    color: yellow;
+}
+.skill-para{
+    color:#fff;
+}
+#achievements{
+    background-color: #77628c;
+    color: #fff;
+}
+.gap{
+    display:inline-block;
+  }
+.gap{
+    margin-top: 20px;
+    margin-right:70%;
+  }
